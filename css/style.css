@@ -4,19 +4,20 @@ html,body{
   
   }
   body{
-    /* The image used */
+
     background-image: url(/img/Forever_by_Shady_S.jpg) ;
-    /* Full height */
+
     height: 100%;
-    /* Center and scale the image nicely */
+
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
+    z-index: 0;
   }
   
-  body::before{
+  /* body::before{
     content: '';
     display: block;
     background: inherit;
@@ -25,9 +26,10 @@ html,body{
     left: 0; top: 0;
     filter: blur(15px);
     transform: scale(1.2,1.4);
-  }
+    z-index: 0;
+  } */
   
-  .vdivide [class*='col-6']:not(:last-child):after {
+  /* .vdivide [class*='col-6']:not(:last-child):after {
       background: #e0e0e0;
       width: 1px;
       content: "";
@@ -37,4 +39,4 @@ html,body{
       bottom: 0;
       right: 0;
       min-height: 70px;
-  }
+  } */
