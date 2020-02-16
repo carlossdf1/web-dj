@@ -5,8 +5,9 @@
 
 body{
 
-  background-image: url(img/fondo.jpg) ;
-
+  /* background-image: url(img/fondo.jpg) ; */
+  
+  background-color:#0D273D;
   height: 100%;
 
   background-position: center;
