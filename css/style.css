@@ -5,14 +5,14 @@
 
 body{
 
-  /* background-image: url(img/fondo.jpg) ; */
+  background: url(/img/fondo.jpg) no-repeat fixed bottom center ;
   
-  background: linear-gradient(0deg,black,#0D273D);
+  /* background: linear-gradient(0deg,black,#0D273D) no-repeat fixed bottom center; */
 
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
+  position: relative; */
   /* overflow: hidden; */
   /* z-index: 0; */
 }
