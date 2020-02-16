@@ -1,14 +1,13 @@
-/* html,body{
+html,body{
   height: 100%;
   width: 100%;
-} */
+}
 
 body{
 
   /* background-image: url(img/fondo.jpg) ; */
   
-  background-color:#0D273D;
-  height: 100%;
+  background: linear-gradient(0deg,black,#0D273D);
 
   background-position: center;
   background-repeat: no-repeat;
