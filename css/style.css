@@ -5,7 +5,7 @@
 
 body{
 
-  background: url(/img/fondo.jpg) no-repeat fixed bottom center ;
+  background: url("/img/fondo.jpg") no-repeat fixed bottom center ;
   
   /* background: linear-gradient(0deg,black,#0D273D) no-repeat fixed bottom center; */
 
