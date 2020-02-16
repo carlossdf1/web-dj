@@ -1,7 +1,7 @@
-html,body{
+/* html,body{
   height: 100%;
   width: 100%;
-}
+} */
 
 body{
 
@@ -12,22 +12,21 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  overflow: hidden;
-  z-index: 0;
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* z-index: 0; */
 }
 
-#logo{
-	position: absolute;
+/* #logo{
 	top: 50%;
 	height: 50%;
 
-}
+} */
 
 #footer{
-  position: absolute;
-	top: 50%;
-	height: 30%;
+  /* position: absolute; */
+	bottom: 0%;
+	height: 8%;
 }
 
   /* body::before{
