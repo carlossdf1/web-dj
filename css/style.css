@@ -1,34 +1,36 @@
-html,body{
-  height: 100%;
-  width: 100%;
+body{
+  background-color: #000000;
 }
 
-img.fondo{
+#fondo{
+
   width: 100%;
   height: 100%;
   position: absolute;
-  left: 0px;
-  top: 0px;
+  background:url(../img/fondo.jpg) no-repeat fixed bottom center;
   z-index: -1;
   filter: blur(5px);
+}
 
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  overflow: hidden; */
+#imgCirculo{
+  background-position-x: center;
+  border-radius: 50%;
+  width:400px;
+  height:400px;
+  /* border-radius:160px; */
+  border:10px solid rgb(255, 254, 254);
 }
 
 
-.align-middle {
+#logo{
   vertical-align: middle!important;
-  bottom: -10%;
+  top: 10%;
   position: relative;
 }
 
 #footer{
-  position: absolute;
   bottom: 0%;
+  background-color: #000000;
 }
 
 p {
@@ -36,31 +38,31 @@ p {
   margin-bottom: 0;
 }
 
+#esp1{
+  width: 80%;
+  height: 25px;
+}
+
+#esp2{
+  width: 80%;
+  height: 150px;
+}
+
 .row-cols-4>* {
   text-align: center;
 }
 
+.col{
+  text-align: center;
+}
 
-  /* body::before{
-    content: '';
-    display: block;
-    background: inherit;
-    position: absolute;
-    width: 100%; height: 100%;
-    left: 0; top: 0;
-    filter: blur(15px);
- 
-    z-index: 0;
-  } */
-  
-  /* .vdivide [class*='col-6']:not(:last-child):after {
-      background: #e0e0e0;
-      width: 1px;
-      content: "";
-      display:block;
-      position: absolute;
-      top:0;
-      bottom: 0;
-      right: 0;
-      min-height: 70px;
-  } */
+#icon{
+  min-width: 72px;
+  min-height: 72px;
+  max-width: 80%;
+}
+
+.row-cols-5>* {
+  flex: 0 0 20%;
+  max-width: none;
+}
