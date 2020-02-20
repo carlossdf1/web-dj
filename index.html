@@ -11,40 +11,43 @@
     <title>SenpaTrip</title>
   </head>
   <body>
-    
-<div id="fondo">
-  <!-- <video id="video" loop autoplay preload muted src="img/fondo.jpg"></video> -->
-</div>
+    <!-- onresize="redimensionar()" -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-light">
-      <a class="navbar-brand" href="#">
-        <img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
-      </a>
-      <a class="navbar-brand" href="#">SenpaTrip</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-          Navbar text with an inline element
-        </span>
-      </div>
-    </nav>
+<div class="container-fluid" id="conten">
 
-    <div class="row justify-content-center">
-      <div class="col" id="esp2"></div>
+  <div id="fondo" class="fondo">
+    <!-- <video id="video" loop autoplay preload muted src="img/fondo.jpg"></video> -->
+  </div>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-light">
+    <a class="navbar-brand" href="#">
+      <img src="/img/senpatrip/Cruz (Amarillo).png" width="30" height="30" alt="">
+    </a>
+    <a class="navbar-brand" href="#"><img src="/img/senpatrip/Amarillo (logo).png" height="30" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Navbar text with an inline element
+      </span>
     </div>
+  </nav>
+
+    <!-- <div class="row justify-content-center">
+      <div class="col" id="esp2"></div>
+    </div> -->
 
 
     <div id="logo" class="container align-middle">
@@ -52,15 +55,14 @@
       <div class="row justify-content-center">
         <div class="col-6">
           <div class="row justify-content-center">
-            <img id="imgCirculo" src="img/avatar.jpg" alt="avatar">
+            <img id="imgCirculo" src="img/senpatrip/.jpg" alt="avatar">
           </div>
           <div class="row justify-content-center">
             <div class="col" id="esp1"></div>
           </div>
           <div class="row row-cols-5 justify-content-center">
             <div class="col"><img id="icon" src="img/43-spotify.png" alt=""></div>
-            <!-- <div class="col"><img src="img/34-soundcloud.svg" alt=""></div> -->
-            <div class="col"><img id="icon" src="img/18-youtube.png" alt=""></div>
+            <div class="col"><img id="icon" src="img/34-soundcloud.png" alt=""></div>
             <div class="col"><img id="icon" src="img/38-instagram.png" alt=""></div>
             <div class="col"><img id="icon" src="img/03-twitter.png" alt=""></div>
             <div class="col"><img id="icon" src="img/06-facebook.png" alt=""></div>
@@ -76,7 +78,7 @@
       <div class="col" id="esp2"></div>
     </div>
 
-<div class="container-sm">
+<div class="container align-middle" style="min-width: 350px;width: 50%;">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -85,21 +87,21 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/img9.jpg" class="d-block w-100" alt="...">
+        <img src="img/senpatrip/genesis-ep-spectre-album.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>First slide label</h5>
           <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/img7.jpg" class="d-block w-100" alt="...">
+        <img src="/img/senpatrip/gime-me-your-love-night-visions-album.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="img/img8.jpg" class="d-block w-100" alt="...">
+        <img src="/img/senpatrip/bass-in-his-face-spectre-album.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -117,27 +119,18 @@
   </div>
 </div>
 
-<div class="row justify-content-center">
-  <div class="col" id="esp1"></div>
-</div>
-<div class="row justify-content-center">
-  <div class="col" id="esp1"></div>
-</div>
 
-  <div class="container-fluid text-light" id="footer">
-      <p>Posted by: Hege Refsnes<br>Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.</p>
-  </div>
+</div>
+  <footer id="footer">
+    <p>Posted by: Carlos Correa<br>Contact information: <a href="mailto:carlos.sdf@gmail.com">carlos.sdf@gmail.com</a>.</p>
+  </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-      $(document).ready(function(){
-        var height = $(HTMLBodyElement).height();
-        $('#fondo').height(height);
-      });
-    </script>
+    <script src="/js/index.js"></script>
+    <script>redimensionar();</script>
   </body>
 </html>
