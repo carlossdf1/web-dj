@@ -41,7 +41,12 @@ html{
 
 #logo{
   vertical-align: middle!important;
-  top: 10%;
+  top: 6%;
+  position: relative;
+}
+
+#music{
+  top: 8%;
   position: relative;
 }
 
