@@ -2,11 +2,18 @@ body{
   background-color: #000000;
   margin: 0;
   margin-bottom: 50px;
+
 }
 html{
   min-height: 100%;
   position: relative;
 }
+
+#navbar{
+  position: fixed;
+  width: 98%;
+}
+
 #fondo{
 
   width: 100%;
@@ -34,7 +41,7 @@ html{
 
 #logo{
   vertical-align: middle!important;
-  top: 5%;
+  top: 10%;
   position: relative;
 }
 
@@ -51,6 +58,7 @@ html{
 p {
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: 10px;
 }
 
 #esp1{
@@ -80,4 +88,8 @@ p {
 .row-cols-5>* {
   flex: 0 0 20%;
   max-width: none;
+}
+#carousel{
+  min-width: 350px;
+  width: 50%;
 }
