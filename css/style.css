@@ -45,9 +45,19 @@ html{
   position: relative;
 }
 
+.logo:hover {
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
 #music{
   top: 8%;
   position: relative;
+}
+
+#album:hover{
+  filter: blur(6px);
 }
 
 #footer{
