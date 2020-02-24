@@ -1,7 +1,7 @@
 body{
   background-color: #000000;
   margin: 0;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 
 }
 html{
@@ -107,4 +107,9 @@ p {
 #carousel{
   min-width: 350px;
   width: 50%;
+}
+
+.albunes{
+  top: 8%;
+  position: relative;
 }
