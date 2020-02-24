@@ -12,6 +12,7 @@ html{
 #navbar{
   position: fixed;
   width: 98%;
+  z-index: 1;
 }
 
 #fondo{
